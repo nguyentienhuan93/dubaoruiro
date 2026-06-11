@@ -14,8 +14,8 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 # -----------------------------------------------------------------------------
 st.set_page_config(
     layout="wide",
-    page_title="Hệ Thống Phát Hiện Giao Dịch Gian Lận",
-    page_icon="🛡️"
+    page_title="Hệ Thống Phát Hiện Giao Dịch Gian Lận tại Agribank",
+    page_icon="💖"
 )
 
 # -----------------------------------------------------------------------------
@@ -96,7 +96,7 @@ with st.sidebar:
 # -----------------------------------------------------------------------------
 # STEP 4: HEADER — VÙNG ĐỊNH HƯỚNG & XỬ LÝ TRẠNG THÁI RỖNG
 # -----------------------------------------------------------------------------
-st.title("🛡️ Ứng Dụng Phát Hiện Giao Dịch Gian Lận")
+st.title("💖 Ứng Dụng Phát Hiện Giao Dịch Gian Lận tại Agribank 💖")
 st.caption("Ứng dụng hỗ trợ tự động hóa việc thẩm định rủi ro tín dụng và phát hiện gian lận dựa trên quy trình huấn luyện AI.")
 
 if uploaded_file is None:
